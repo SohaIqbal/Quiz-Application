@@ -1,12 +1,8 @@
-                                                    # THIS WILL WORK WELL ON PYCHARM
+ # THIS WILL WORK WELL ON PYCHARM
 
 
 from tkinter import *
 from PIL import ImageTk, Image
-import winsound
-
-# Music playing in background
-winsound.PlaySound("music.wav",winsound.SND_ASYNC+winsound.SND_LOOP)
 
 #closing the application
 def close_m():
